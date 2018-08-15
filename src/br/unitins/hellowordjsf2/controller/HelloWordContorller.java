@@ -4,5 +4,6 @@ import javax.inject.Named;
 
 @Named
 public class HelloWordContorller {
+	
 
 }

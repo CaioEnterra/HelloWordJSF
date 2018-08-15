@@ -39,6 +39,27 @@
 				listener="#{exemploAjaxController.imprimirConsole}" />
 		</h:inputText>
 		<h:outputLabel id="labelblur" value="#{exemploAjaxController.nome}" />
+		
+		
+		<hr />
+		<h2>Evento - Keyup</h2>
+		<h:outputLabel value="Nome" />
+		<h:inputText value="#{exemploAjaxController.nome}">
+			<f:ajax event="keyup" render="labelkeyup" execute="@this"
+				listener="#{exemploAjaxController.imprimirConsole}" />
+		</h:inputText>
+		<h:outputLabel id="labelkeyup" value="#{exemploAjaxController.nome}" />
+		
+		
+		<hr />
+		<h2>Evento - Mouseover</h2>
+		<h:outputLabel value="Nome" />
+		<h:inputText value="#{exemploAjaxController.nome}">
+			<f:ajax event="mouseover" render="labelmouseover" execute="@this"
+				listener="#{exemploAjaxController.imprimirConsole}" />
+		</h:inputText>
+		<h:outputLabel id="labelmouseover" value="#{exemploAjaxController.nome}" />
+
 
 	</h:form>
 

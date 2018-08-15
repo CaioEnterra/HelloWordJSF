@@ -22,7 +22,7 @@ public class ExemploAjaxContorller implements Serializable{
 	}
 	
 	public void imprimirConsole() {
-		System.out.println("teste");
+		System.out.println("Imprimir no consolse");
 		
 	}
 	
